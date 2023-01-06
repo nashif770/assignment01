@@ -75,21 +75,66 @@
     font-weight:900;
     width: 50%;
     margin-bottom:0;
+    margin-left: 35px;
 }
 .problem_content{
     width: 50%;
     font-size: 20px;
     margin-top: 30px;
     line-height: 26px;
+    margin-left: 35px;
 }
 .problem_list{
-    text-decoration: none;
+    margin-top: 20px;
 }
-
-.tick_mark{
-    text-decoration: none;
+.tick{
+    margin-right: 10px;
 }
 
 .my_list{
-    text-decoration: none;
+    font-size: 20px;
+    line-height: 40px;
+    list-style-type:none;
 }
+
+/* My plans section */
+
+.plans{
+    height: 80vh;
+    padding-top: 150px;
+}
+
+.plan_titles{
+    text-align: center;
+    font-size: 40px;
+    font-weight:900;  
+    margin-bottom: 100px;  
+}
+
+.plan_list{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    }
+.plan{
+    list-style: none;
+    margin: 30px;
+}
+.icon{
+    margin:auto;
+    padding: 0 100px 0 100px;
+}
+.plan_title{
+    text-align: center;
+    font-size: 25px;
+    font-weight:700;
+    padding-bottom: 20px;
+}
+.subtitles{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500px;
+}
+
+/* Gradiant work */
+
