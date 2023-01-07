@@ -106,6 +106,55 @@ body{
     margin-right: 20px;
 }
 
+/* this is the action (own insertion) section */
+
+.action_section{
+    height: 750px;
+    width: 1920px;
+    margin-bottom: 100px;
+
+}
+
+.action_title{
+    text-align: center;
+    font-size: 60px;
+    font-weight:900;
+    height: 100px;
+    width: 1920px;
+}
+.action_content{
+    display: flex;
+    width: 1920px;
+}
+.action_sep{
+    border: 0;
+    margin: 0;
+}
+.action_discription{
+    font-size: 20px;
+    margin: 100px 50px 0 50px;
+    line-height: 30px;
+    height: 210px;
+    width: 860px;
+}
+
+.actions_list{
+    list-style: none;
+    margin: 0 100px 0 50px;
+    height: 200px;
+    width: 820px;
+}
+
+.action{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.art_image{
+    margin: 50px;
+    height: 500px;
+}
+
 /* My plans section */
 
 .plans{
@@ -115,7 +164,7 @@ body{
 
 .plan_titles{
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     font-weight:900;  
     margin-bottom: 100px;  
 }
@@ -264,14 +313,15 @@ body{
 
 .email_in{
     display: block;
-    width: 320px;
+    width: 420px;
     height: 70px;
     margin-bottom: 2g0px;
-    border-radius: 5px;
-    border: 2px solid white;
+    border-radius: 10px;
+    border: 3px solid white;
     background-color: black;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
+    padding: 20px;
 }
 
 .sub_btn{
