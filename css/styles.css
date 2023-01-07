@@ -56,6 +56,11 @@ body{
     margin-top: 40px;
 }
 
+.primary_btn:hover{
+    background-color: white;
+    color: red;
+}
+
 /* this is the problem section */
 
 .problem_section{
@@ -218,7 +223,8 @@ body{
     height: 100%;
     background-image: url('../images/gradient2.png');
     background-size: cover;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
+    border-radius: 15px; 
 }
 
 .grad_title{
@@ -243,7 +249,11 @@ body{
     border-radius: 5px;
     margin-left: 50px;
 }
-
+.call_button:hover{
+    
+    color: white;
+    background-color: red;
+}
 /* footer */
 
 /* footer left */
@@ -334,4 +344,17 @@ body{
     font-size: 23px;
     border-radius: 5px;
 }
-
+.sub_btn{
+    display: block;
+    margin-top: 15px;
+    height: 64px;
+    width: 160px;
+    color: red;
+    background-color: white;
+    font-size: 23px;
+    border-radius: 5px;
+}
+.sub_btn:hover{
+    color: white;
+    background-color: red;
+}
