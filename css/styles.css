@@ -212,16 +212,17 @@ body{
 
 /* footer */
 
+/* footer left */
 .footer{
+    border: 2px solid red;
     display: flex;
     height: 520px;
+    width: 1920px;
     background-color: black;
     color: white;
 }
 .footer_info_section{
     border: 2px solid yellow;
-    height: 390px;
-    width: 400px;
     margin-left: 200px;
     margin-right: 200px;
 }
@@ -238,10 +239,71 @@ body{
     border: 2px solid red;
     margin: 0;
     padding: 0;
+    font-size: 20px;
+    line-height: 30px;
+    width: 550px;
+}
+
+.email{
+    padding-top: 20px;
+    font-size: 20px;
     line-height: 30px;
 }
+.phone{
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.sm_icons{
+    display: flex;
+    border: 2px solid red;
+}
+
+.sm_icon{
+    padding-top: 20px;
+    margin: 10px;
+}
+
+/* footer right */
 .subscription{
+    border: 2px solid red;
+    height: 520px;
+    width: 1920px;
+    background-color: black;
+    color: white;
+}
+
+.sub_title{
     padding-top: 100px;
     border: 2px solid red;
-    width: 50%;
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    margin-bottom: 0;
 }
+
+.email_in{
+    display: block;
+    width: 320px;
+    height: 70px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.sub_btn{
+    display: block;
+    border: 2px solid red;
+    height: 64px;
+    width: 160px;
+    color: red;
+    background-color: white;
+    font-size: 23px;
+    border-radius: 5px;
+}
+
